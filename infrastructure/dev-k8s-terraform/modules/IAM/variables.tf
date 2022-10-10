@@ -7,11 +7,11 @@ variable "worker-role-policy" {
 }
 
 variable "master-role" {
-  default = "petclinic_role_master_k8s"
+  default = "petclinic_role_master-1_k8s"
 }
 
 variable "worker-role" {
-  default = "petclinic_role_worker_k8s"
+  default = "petclinic_role_worker-1_k8s"
 }
 
 variable "master-role-attachment" {
